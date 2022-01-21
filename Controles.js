@@ -38,9 +38,14 @@ this.button1.touchStarted(()=>{
 
 this.button2.touchStarted(()=>{
     if(spider.x>190){
-
     spider.x=spider.x-8
     }
+
+else{
+    spider.x=spider.x-0
+    spider.maxSpeed=+15
+}
+
 })
 
 
@@ -50,6 +55,14 @@ this.button3.touchStarted(()=>{
     spider.velocityY=spider.velocityY-31
     spider.maxSpeed=+15
     }
+
+    else{
+        spider.velocityY=spider.velocityY-0
+        spider.maxSpeed=+15
+
+    }
+
+
 })
 
 
