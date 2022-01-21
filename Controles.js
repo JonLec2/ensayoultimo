@@ -31,14 +31,14 @@ display(){
 
 
 this.button1.touchStarted(()=>{
-    spider.x=spider.x+8
+    spider.x=spider.x+20
 })
 
 
 
-this.button2.touchMoved(()=>{
+this.button2.touchStarted(()=>{
     if(spider.x>190){
-    spider.x=spider.x-8
+    spider.x=spider.x-20
     }
 
 else{
