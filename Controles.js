@@ -30,22 +30,16 @@ display(){
  this.button3.style('color', 'white');
 
 
- if (mouseIsPressed) {
-    if (mouseButton === LEFT) {
-        spider.x=spider.x+8
-    }
-}
 
-
-//this.button1.touchStarted(()=>{
-  //  spider.x=spider.x+8
-//})
+this.button1.touchStarted(()=>{
+  spider.x=spider.x+18
+})
 
 
 
 this.button2.touchStarted(()=>{
     if(spider.x>190){
-    spider.x=spider.x-8
+    spider.x=spider.x-18
     }
 
 else{
