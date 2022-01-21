@@ -45,13 +45,12 @@ this.button2.touchStarted(()=>{
 
 if(spider.y>300){
 this.button3.touchStarted(()=>{
-    spider.velocityY=spider.velocityY-3
+    spider.velocityY=spider.velocityY-31
     spider.maxSpeed=+15
 })
 
 }
 
-spider.velocityY = spider.velocityY + 0.91
 
 
 }
