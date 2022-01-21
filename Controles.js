@@ -35,21 +35,24 @@ this.button1.touchStarted(()=>{
 })
 
 
-if(spider.x>190){
+
 this.button2.touchStarted(()=>{
+    if(spider.x>190){
+
     spider.x=spider.x-8
-  
+    }
 })
-}
 
 
-if(spider.y>300){
+
 this.button3.touchStarted(()=>{
+    if(spider.y>300){
     spider.velocityY=spider.velocityY-31
     spider.maxSpeed=+15
+    }
 })
 
-}
+
 
 
 }
