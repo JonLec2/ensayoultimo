@@ -36,7 +36,7 @@ this.button1.touchStarted(()=>{
 
 
 
-this.button2.touchStarted(()=>{
+this.button2.touchMoved(()=>{
     if(spider.x>190){
     spider.x=spider.x-8
     }
