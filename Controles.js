@@ -32,15 +32,16 @@ display(){
 
 
 this.button1.touchStarted(()=>{
-  spider.x=spider.x+18
+  spider.x=spider.x+28
 })
 
 
 
 this.button2.touchStarted(()=>{
     if(spider.x>190){
-    spider.x=spider.x-18
+    spider.x=spider.x-28
     }
+
 
 else{
     spider.x=spider.x-0
